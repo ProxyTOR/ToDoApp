@@ -4,8 +4,9 @@ import Todo from './Todo';
 class App extends Component {
   state = {
     todos: [
-      {id: 1, item: 'Play Badminton'},
-      {id: 2, item: 'Evaluate Assignment'}
+      { id: 1, item: 'Play Badminton' },
+      { id: 2, item: 'Evaluate Assignment' },
+      { id: 3, item: 'Hack Government Systems Anonymously' }
     ]
   }
   render() {
